@@ -37,6 +37,8 @@ public class Main {
         
         System.out.println("This program will check to see if your string is a "
                 + "palindrome, please specifiy your string. Enter 0 to exit.");
+        
+        //Ask user for strings until 0 is entered 
         while(! pal.equals("0"))
         {
             backwards = "";
